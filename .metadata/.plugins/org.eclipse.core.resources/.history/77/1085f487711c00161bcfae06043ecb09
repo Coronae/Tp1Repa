@@ -1,0 +1,17 @@
+package data;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Transac {
+
+	private int Id;
+	private String type;
+	private int amount;
+	private int customerId;
+
+	public Transac(){	
+	}
+
+
+}

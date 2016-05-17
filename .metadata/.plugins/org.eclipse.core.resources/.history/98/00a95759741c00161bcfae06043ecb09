@@ -1,0 +1,12 @@
+import org.eclipse.persistence.jaxb.JAXBContextFactory; ;
+import org.eclipse.persistence.jaxb.MarshallerProperties; ;
+import org.test.services.Personne; ;
+public class  Main {
+public static void  main(String[]  args )  throws  Exception {
+String uri = "http://localhost:8080/RESTful/
+resources/test/listjson";
+URL url =  new  URL( uri );
+HttpURLConnection connection = (HttpURLConnection)
+url.openConnection();
+connection.setRequestMethod("GET");
+connection.setRequestProperty("Accept", "application/json");

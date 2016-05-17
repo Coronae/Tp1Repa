@@ -1,0 +1,68 @@
+package app;
+
+public class RestJson {
+
+
+package producer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import pojos.Account;
+import pojos.Transaction;
+
+@Path("/bank")
+public class Test {
+
+	private List<Account> ListAccount;
+	private List<Transaction> ListTransaction;
+
+	private void start() {
+
+		ListAccount = new ArrayList<Account>();
+		ListTransaction = new ArrayList<Transaction>();
+
+		for (int i = 0; i < 10; i++) {
+			ListAccount.add(new Account("test" + i, Math.random() * 5000));
+			for (int j = 0; j < 10; j++)
+				ListTransaction.add(new Transaction(j, Math.random() < 1 ? "Credit" : "Debit", Math.random() * 100, i));
+		}
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/start")
+	public String startApp() {
+		this.start();
+		return "Start ok";
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/getListAccount")
+	public List<Account> getLA() {
+		return this.ListAccount;
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/getListTrans")
+	public List<Transaction> getLT() {
+		return this.ListTransaction;
+	}
+
+	/*
+	 * @GET
+	 *
+	 * @Produces("application/xml")
+	 *
+	 * @Path("/transactionxml") public Transaction xmlTransaction() {
+	 * Transaction t = new Transaction(); return t; }
+	 */
+}
+	
+}

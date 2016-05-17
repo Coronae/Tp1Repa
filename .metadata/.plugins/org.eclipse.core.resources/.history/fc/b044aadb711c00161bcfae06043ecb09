@@ -1,0 +1,62 @@
+package data;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Transac {
+
+	private int Id;
+	private String type;
+	private double amount;
+	private int customerId;
+
+	public Transac(){	
+	}
+	
+	public Transac(int Id, int customerId){
+		
+		this.Id=Id;
+		this.customerId=customerId;
+		this.type=(Math.random()<=1)?"Debit":"Credit";
+		this.amount=Math.random()*250;
+	}
+
+	public int getId() {
+		return Id;
+	}
+
+	public void setId(int id) {
+		Id = id;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getAmount() {
+		return amount;
+	}
+
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	@Override
+	public String toString() {
+		return "Transac [Id=" + Id + ", type=" + type + ", amount=" + amount + ", customerId=" + customerId + "]";
+	}
+
+
+}

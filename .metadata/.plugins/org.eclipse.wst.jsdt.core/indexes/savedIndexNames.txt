@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+92363241.index
+2686959099.index
+1473386014.index
+3422532751.index
+1439254229.index
+3721187436.index

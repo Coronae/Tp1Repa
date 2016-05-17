@@ -1,0 +1,62 @@
+
+package app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import data.Account;
+import data.Transac;
+
+@Path("/bank")
+public class RestJson {
+
+	private List<Account> ListAccount;
+	private List<Transac> ListTransac;
+
+	private void start() {
+
+		ListAccount = new ArrayList<Account>();
+		ListTransac = new ArrayList<Transac>();
+
+		for (int i = 0; i < 10; i++) {
+			ListAccount.add(new Account("test" + i, Math.random() * 5000));
+			for (int j = 0; j < 10; j++)
+				ListTransac.add(new Transac(j, Math.random() < 1 ? "Credit" : "Debit", Math.random() * 100, i));
+		}
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/start")
+	public String startApp() {
+		this.start();
+		return "Start ok";
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/getListAccount")
+	public List<Account> getLA() {
+		return this.ListAccount;
+	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/getListTrans")
+	public List<Transac> getLT() {
+		return this.ListTransac;
+	}
+
+	/*
+	 * @GET
+	 *
+	 * @Produces("application/xml")
+	 *
+	 * @Path("/Transacxml") public Transac xmlTransac() { Transac t = new
+	 * Transac(); return t; }
+	 */
+}

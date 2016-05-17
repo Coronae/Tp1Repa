@@ -1,0 +1,1240 @@
+!SESSION 2016-05-17 21:30:23.279 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-17 21:31:29.299
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Coronae'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:50.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:50.499
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:52.483
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:52.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:53.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:37:53.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-17 21:38:22.036
+!MESSAGE cacheFile=file:/C:/Users/Coronae/Desktop%202/eclipse/eclipse-jee/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-05-17 21:38:48.856
+!MESSAGE cacheFile=file:/C:/Users/Coronae/Desktop%202/eclipse/eclipse-jee/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:40:09.776
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:40:09.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:02.288
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.ws.jaxrs.core.internal.project.facet.JAXRSFacetInstallDataModelProvider.initLibraryInstallDelegate(JAXRSFacetInstallDataModelProvider.java:171)
+	at org.eclipse.jst.ws.jaxrs.core.internal.project.facet.JAXRSFacetInstallDataModelProvider.propertySet(JAXRSFacetInstallDataModelProvider.java:152)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.createProjectFacetAction(FacetedProjectWorkingCopy.java:1464)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshProjectFacetActions(FacetedProjectWorkingCopy.java:1558)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacets(FacetedProjectWorkingCopy.java:777)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:807)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.installJaxRsFacet(JaxRsProjectConfigurator.java:132)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.configureInternal(JaxRsProjectConfigurator.java:94)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.mavenProjectChanged(JaxRsProjectConfigurator.java:180)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1000)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:299)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:02.321
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:02.424
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.ws.jaxrs.core.internal.project.facet.JAXRSFacetInstallDataModelProvider.initLibraryInstallDelegate(JAXRSFacetInstallDataModelProvider.java:171)
+	at org.eclipse.jst.ws.jaxrs.core.internal.project.facet.JAXRSFacetInstallDataModelProvider.propertySet(JAXRSFacetInstallDataModelProvider.java:152)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1634)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:320)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.installJaxRsFacet(JaxRsProjectConfigurator.java:132)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.configureInternal(JaxRsProjectConfigurator.java:94)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.mavenProjectChanged(JaxRsProjectConfigurator.java:180)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1000)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:919)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:299)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:252)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:02.425
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:04.533
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:04.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:05.008
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:05.023
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.106
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.createJSFDataModel(JSFProjectConfigurator.java:172)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:146)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.106
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.108
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.createJSFDataModel(JSFProjectConfigurator.java:172)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:146)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.108
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.222
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.initLibraryInstallDelegate(JSFFacetInstallDataModelProvider.java:76)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:158)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.createProjectFacetAction(FacetedProjectWorkingCopy.java:1464)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshProjectFacetActions(FacetedProjectWorkingCopy.java:1558)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacets(FacetedProjectWorkingCopy.java:777)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:807)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.223
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.225
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.initLibraryInstallDelegate(JSFFacetInstallDataModelProvider.java:76)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:158)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.createProjectFacetAction(FacetedProjectWorkingCopy.java:1464)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshProjectFacetActions(FacetedProjectWorkingCopy.java:1558)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacets(FacetedProjectWorkingCopy.java:777)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:807)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.225
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.228
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setProjectFacetVersion(LibraryInstallDelegate.java:198)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:163)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setProjectFacetVersion(FacetDataModelConfigAdapter.java:42)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1529)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.createProjectFacetAction(FacetedProjectWorkingCopy.java:1464)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshProjectFacetActions(FacetedProjectWorkingCopy.java:1558)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacets(FacetedProjectWorkingCopy.java:777)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:807)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.229
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.230
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setProjectFacetVersion(LibraryInstallDelegate.java:198)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:163)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setProjectFacetVersion(FacetDataModelConfigAdapter.java:42)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1529)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.createProjectFacetAction(FacetedProjectWorkingCopy.java:1464)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshProjectFacetActions(FacetedProjectWorkingCopy.java:1558)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacets(FacetedProjectWorkingCopy.java:777)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:807)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.231
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.275
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate$2.handleEvent(LibraryInstallDelegate.java:132)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.notifyListeners(FacetedProjectWorkingCopy.java:1752)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.resumeEventNotification(FacetedProjectWorkingCopy.java:1797)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:822)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.275
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.276
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate$2.handleEvent(LibraryInstallDelegate.java:132)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.notifyListeners(FacetedProjectWorkingCopy.java:1752)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.resumeEventNotification(FacetedProjectWorkingCopy.java:1797)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.addProjectFacet(FacetedProjectWorkingCopy.java:822)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:301)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.277
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.279
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.initLibraryInstallDelegate(JSFFacetInstallDataModelProvider.java:76)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:158)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1634)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:320)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.279
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.281
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:151)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.initLibraryInstallDelegate(JSFFacetInstallDataModelProvider.java:76)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:158)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setFacetedProjectWorkingCopy(FacetDataModelConfigAdapter.java:47)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1525)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1634)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:320)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.282
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.284
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setProjectFacetVersion(LibraryInstallDelegate.java:198)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:163)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setProjectFacetVersion(FacetDataModelConfigAdapter.java:42)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1529)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1634)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:320)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.284
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.286
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setProjectFacetVersion(LibraryInstallDelegate.java:198)
+	at org.eclipse.jst.jsf.core.internal.project.facet.JSFFacetInstallDataModelProvider.propertySet(JSFFacetInstallDataModelProvider.java:163)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.internalSetProperty(DataModelImpl.java:182)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelImpl.setProperty(DataModelImpl.java:172)
+	at org.eclipse.wst.common.componentcore.datamodel.FacetDataModelConfigAdapter.setProjectFacetVersion(FacetDataModelConfigAdapter.java:42)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.bindProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1529)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.setProjectFacetActionConfig(FacetedProjectWorkingCopy.java:1634)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:320)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.286
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.350
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate$2.handleEvent(LibraryInstallDelegate.java:132)
+	at org.eclipse.wst.common.project.facet.core.events.internal.ProjectListenerRegistry.notifyListeners(ProjectListenerRegistry.java:76)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.notifyListeners(FacetedProject.java:1326)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:343)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.350
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-05-17 21:41:05.352
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate$2.handleEvent(LibraryInstallDelegate.java:132)
+	at org.eclipse.wst.common.project.facet.core.events.internal.ProjectListenerRegistry.notifyListeners(ProjectListenerRegistry.java:76)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.notifyListeners(FacetedProject.java:1326)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:343)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.installProjectFacet(FacetedProject.java:255)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.installJSFFacet(JSFProjectConfigurator.java:148)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configureInternal(JSFProjectConfigurator.java:95)
+	at org.eclipse.m2e.wtp.jsf.internal.configurators.JSFProjectConfigurator.configure(JSFProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$4.run(ProjectConfigurationManager.java:521)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:26)
+	at org.eclipse.m2e.core.internal.embedder.AbstractRunnable.call(AbstractRunnable.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.enableMavenNature(ProjectConfigurationManager.java:518)
+	at org.eclipse.m2e.core.ui.internal.actions.EnableNatureAction$1.run(EnableNatureAction.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-05-17 21:41:05.352
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:07.510
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:07.515
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:41:07.606
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:06.840
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:06.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:14.938
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:14.940
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:31.531
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:42:31.534
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:23.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:23.518
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:32.744
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:32.752
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:42.473
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:42.476
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:51.199
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:43:51.206
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:03.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:03.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:17.350
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:17.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:24.533
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:44:24.535
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:45:07.775
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:45:07.778
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:45:07.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:45:28.568
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:45:28.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:24.193
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:24.194
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:45.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:45.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:55.942
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:46:55.944
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:47:03.491
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:47:03.496
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:47:57.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:47:57.253
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:49:37.495
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:49:37.543
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:49:37.555
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:51:32.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:51:32.813
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 2 2016-05-17 21:52:34.888
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:562)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:519)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:528)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-05-17 21:52:34.892
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:562)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:519)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1486)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1462)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2074)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:528)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2016-05-17 21:52:35.344
+!MESSAGE Internal Error
+!STACK 0
+java.lang.IllegalArgumentException: Element not found: /GlassProducer/.settings.
+	at org.eclipse.core.internal.watson.ElementTree.elementNotFound(ElementTree.java:256)
+	at org.eclipse.core.internal.watson.ElementTree.deleteElement(ElementTree.java:248)
+	at org.eclipse.core.internal.resources.Workspace.deleteResource(Workspace.java:1427)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:876)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:68)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:109)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:351)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1835)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:323)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:160)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-05-17 21:52:37.897
+!MESSAGE An internal error occurred during: "Loading descriptor for GlassProducer.".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelResource(JEE5ModelProvider.java:175)
+	at org.eclipse.jst.jee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:44)
+	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:231)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadProviders(AbstractMergedModelProvider.java:261)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.access$2(AbstractMergedModelProvider.java:255)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider$LoadModelsWorkspaceRunnable.run(AbstractMergedModelProvider.java:278)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.loadModel(AbstractMergedModelProvider.java:249)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getMergedModel(AbstractMergedModelProvider.java:219)
+	at org.eclipse.jst.jee.model.internal.common.AbstractMergedModelProvider.getModelObject(AbstractMergedModelProvider.java:139)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:52:38.657
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-17 21:52:38.660
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 2 2016-05-17 21:52:39.191
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostReconcile(AbstractAnnotationModelProvider.java:466)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:446)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1504)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1463)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:770)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-05-17 21:52:39.218
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostReconcile(AbstractAnnotationModelProvider.java:466)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:446)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1504)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1463)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:770)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.core 4 2 2016-05-17 21:52:41.299
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostReconcile(AbstractAnnotationModelProvider.java:466)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:446)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1504)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1463)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:770)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-05-17 21:52:41.302
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.analyzeCompilationUnit(WebAnnotationReader.java:144)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processAddedCompilationUnit(WebAnnotationReader.java:257)
+	at org.eclipse.jst.jee.model.internal.WebAnnotationReader.processChangedCompilationUnit(WebAnnotationReader.java:270)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessCompilationUnits(AbstractAnnotationModelProvider.java:553)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostReconcile(AbstractAnnotationModelProvider.java:466)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:446)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1662)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1652)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fireReconcileDelta(DeltaProcessor.java:1504)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1463)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:770)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:789)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1250)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:126)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:108)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:87)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:151)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2016-05-17 23:15:01.330 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Coronae/Documents/WorkStationJ/M1/Tp1Repa/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 0 2016-05-17 23:15:46.255
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-9,5,main]" timed out waiting (5021ms) for thread "Thread[Worker-1,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-9,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2814)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4067)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-17 23:15:48.787
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Coronae'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

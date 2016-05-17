@@ -1,0 +1,150 @@
+2016-05-17 21:37:47,451 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: common:common:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
+2016-05-17 21:37:50,453 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:50,491 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:37:50,498 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:50,501 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:37:50,552 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /common/src
+2016-05-17 21:37:50,554 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /common/src/test/java because it overlaps with /common/src
+2016-05-17 21:37:50,887 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-17 21:37:51,773 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: common:common:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
+2016-05-17 21:37:52,482 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:52,484 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:37:52,485 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:52,486 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:37:52,902 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /common/src
+2016-05-17 21:37:52,903 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /common/src/test/java because it overlaps with /common/src
+2016-05-17 21:37:53,022 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-17 21:37:53,914 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:53,916 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:37:53,917 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:37:53,918 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:40:09,776 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:40:09,777 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:40:09,780 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:40:09,781 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:40:58,777 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:41:03,499 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GlassProducer/src
+2016-05-17 21:41:03,500 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /GlassProducer/src/test/java because it overlaps with /GlassProducer/src
+2016-05-17 21:41:04,532 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:04,534 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:41:04,536 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:04,537 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:41:05,007 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:05,008 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:41:05,022 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:05,024 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:41:05,455 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-17 21:41:05,526 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:41:06,745 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GlassProducer/src
+2016-05-17 21:41:06,746 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /GlassProducer/src/test/java because it overlaps with /GlassProducer/src
+2016-05-17 21:41:07,268 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GlassProducer
+2016-05-17 21:41:07,286 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-05-17 21:41:07,509 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:07,511 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:41:07,514 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:41:07,515 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:41:07,516 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GlassProducer
+2016-05-17 21:41:07,517 [Worker-20] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GlassProducer
+2016-05-17 21:41:07,605 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:06,839 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:06,840 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:42:06,844 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:06,845 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:42:14,937 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:14,938 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:42:14,939 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:14,941 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:42:31,531 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:31,532 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:42:31,533 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:42:31,535 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:43:23,516 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:23,517 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:43:23,518 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:23,519 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:43:32,743 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:32,749 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:43:32,751 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:32,752 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:43:42,471 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:42,473 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:43:42,476 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:42,477 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:43:51,198 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:51,201 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:43:51,205 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:43:51,208 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:44:03,363 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:03,369 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:44:03,373 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:03,374 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:44:17,350 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:17,375 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:44:17,377 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:17,378 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:44:24,380 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: common:common:1 @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
+2016-05-17 21:44:24,532 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:24,533 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\main\resources
+2016-05-17 21:44:24,535 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:44:24,536 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\src\test\resources
+2016-05-17 21:45:06,784 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:45:07,774 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:45:07,775 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:45:07,777 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:45:07,778 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:45:07,779 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GlassProducer
+2016-05-17 21:45:07,779 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GlassProducer
+2016-05-17 21:45:07,784 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:45:24,904 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: common:common:1 @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
+2016-05-17 21:45:25,880 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:45:28,567 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:45:28,569 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:45:28,570 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:45:28,571 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:46:24,192 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:24,193 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:46:24,194 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:24,195 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:46:45,872 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:45,873 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:46:45,875 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:45,876 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:46:55,941 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:55,942 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:46:55,943 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:46:55,944 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:47:03,490 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:47:03,491 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:47:03,494 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:47:03,497 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:47:57,249 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:47:57,251 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:47:57,252 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:47:57,253 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:49:34,563 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-17 21:49:35,188 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:49:36,443 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GlassProducer/src
+2016-05-17 21:49:36,443 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /GlassProducer/src/test/java because it overlaps with /GlassProducer/src
+2016-05-17 21:49:36,780 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GlassProducer
+2016-05-17 21:49:36,786 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-05-17 21:49:37,494 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:49:37,537 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:49:37,541 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:49:37,544 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:49:37,545 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of GlassProducer
+2016-05-17 21:49:37,545 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for GlassProducer
+2016-05-17 21:49:37,554 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:51:31,013 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-05-17 21:51:31,044 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: common:common:1 @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
+2016-05-17 21:51:31,550 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:51:32,304 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-05-17 21:51:32,810 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:51:32,811 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:51:32,812 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:51:32,813 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:52:36,327 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: GlassProducer:GlassProducer:0.0.1-SNAPSHOT @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\pom.xml.
+2016-05-17 21:52:38,656 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:52:38,657 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\main\resources
+2016-05-17 21:52:38,659 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-05-17 21:52:38,660 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\GlassProducer\src\test\resources
+2016-05-17 21:54:34,186 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: common:common:1 @ C:\Users\Coronae\Documents\WorkStationJ\M1\Tp1Repa\common\pom.xml.
