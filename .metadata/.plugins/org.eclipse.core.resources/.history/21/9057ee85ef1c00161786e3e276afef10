@@ -65,14 +65,6 @@ public class Transac {
 		this.customerId = customerId;
 	}
 
-	public Date getDate() {
-		return date;
-	}
-
-	public void setDate(Date date) {
-		this.date = date;
-	}
-
 	@Override
 	public String toString() {
 		return "Transac [Id=" + Id + ", type=" + type + ", amount=" + amount + ", customerId=" + customerId + "]";

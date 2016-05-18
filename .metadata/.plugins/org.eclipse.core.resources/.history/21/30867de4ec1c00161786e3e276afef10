@@ -47,14 +47,6 @@ public class RestXML {
 		start();
 		return "Start ok";
 	}
-	
-	@GET
-	@Produces("application/xml")
-	@Path("/getAccount/{iBAN}")
-	public Account getAccountWS(@PathParam("iBAN") int iBAN) {
-		return getAccount(iBAN);
-
-	}
 
 	@GET
 	@Produces("application/xml")

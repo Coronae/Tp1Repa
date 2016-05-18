@@ -8,9 +8,9 @@ public class Account {
 	private int IBAN;
 	private double balance;
 
-	public Account(){	
+	public Account() {
 	}
-	
+
 	public Account(int iBAN, double balance) {
 		super();
 		this.IBAN = iBAN;
@@ -35,7 +35,15 @@ public class Account {
 
 	@Override
 	public String toString() {
-		return "Account [IBAN=" + IBAN + ", balance=" + balance +"]";
+		return "Account [IBAN=" + IBAN + ", balance=" + balance + "]";
+	}
+
+	public void crediter(Transac transaction) {
+		this.balance += transaction.getAmount();
+	}
+
+	public void debiter(Transac transaction) {
+		this.balance -= transaction.getAmount();
 	}
 
 }

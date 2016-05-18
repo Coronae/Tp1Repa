@@ -38,11 +38,12 @@ public class Account {
 		return "Account [IBAN=" + IBAN + ", balance=" + balance + "]";
 	}
 
-	public void crediter(Transac transaction) {
+	private void crediter(Transac transaction) {
 		this.balance += transaction.getAmount();
 	}
 
 	public void debiter(Transac transaction) {
 		this.balance -= transaction.getAmount();
 	}
+
 }

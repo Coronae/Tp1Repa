@@ -21,7 +21,6 @@ public class Transac {
 		this.customerId = customerID;
 		this.amount = amount;
 		this.type = type;
-		this.date = new Date();
 	}
 
 	public Transac(int Id) {
@@ -30,7 +29,6 @@ public class Transac {
 		this.customerId = (int) (Math.random() * 10);
 		this.type = (Math.random() <= 0.5) ? "Debit" : "Credit";
 		this.amount = Math.random() * 250;
-		this.date = new Date();
 	}
 
 	public int getId() {
@@ -63,14 +61,6 @@ public class Transac {
 
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
-	}
-
-	public Date getDate() {
-		return date;
-	}
-
-	public void setDate(Date date) {
-		this.date = date;
 	}
 
 	@Override

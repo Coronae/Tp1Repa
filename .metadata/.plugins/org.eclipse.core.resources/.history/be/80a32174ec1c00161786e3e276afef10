@@ -35,25 +35,27 @@ public class RestXML {
 
 	private Account getAccount(int iBAN) {
 		for (Account element : listAccount)
-			if (element.getIBAN() == iBAN)
+			if (element.getIBAN()== iBAN)
 				return element;
 		return null;
 	}
 
-	@GET
-	@Produces("text/plain")
-	@Path("/start")
-	public String startApp() {
-		start();
-		return "Start ok";
+	private void crediter(Transac transaction, int iBAN){
+		Account customerAcc = getAccount(iBAN);
+		customerAcc.setBalance(customerAcc.getBalance()+transaction.getAmount());
+	}
+	
+	private void debiter(Transac transaction, int iBAN){
+		Account customerAcc = getAccount(iBAN);
+		customerAcc.setBalance(customerAcc.getBalance()-transaction.getAmount());
 	}
 	
 	@GET
-	@Produces("application/xml")
-	@Path("/getAccount/{iBAN}")
-	public Account getAccountWS(@PathParam("iBAN") int iBAN) {
-		return getAccount(iBAN);
-
+	@Produces("text/plain")
+	@Path("/start")
+	public String startApp(){
+		start();
+		return "Start ok";
 	}
 
 	@GET
@@ -62,14 +64,12 @@ public class RestXML {
 	public Transac doTransac(@PathParam("iBAN") int iBAN, @PathParam("type") String type,
 			@PathParam("amount") double amount) {
 
-		Transac currentTransac = new Transac(++nbTransac, type, amount, iBAN);
-		Account currentAcc = getAccount(iBAN);
-		if (currentTransac.getType().equals("Credit"))
-			currentAcc.crediter(currentTransac);
-		else if (currentTransac.getType().equals("Debit"))
-			currentAcc.debiter(currentTransac);
-		else
-			;
+		Transac currentTransac = new Transac(++nbTransac, type, amount, iBAN  );
+		if(currentTransac.getType().equals("Credit"))
+			crediter(currentTransac, iBAN);
+		else if(currentTransac.getType().equals("Debit"))
+			debiter(currentTransac, iBAN);
+		else;
 		return currentTransac;
 	}
 }

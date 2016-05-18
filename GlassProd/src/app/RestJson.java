@@ -51,7 +51,7 @@ public class RestJson {
 
 	@GET
 	@Produces("application/json")
-	@Path("/account/{iBAN}")
+	@Path("/getAccount/{iBAN}")
 	public Account getAccountWS(@PathParam("iBAN") int iBAN) {
 		return getAccount(iBAN);
 

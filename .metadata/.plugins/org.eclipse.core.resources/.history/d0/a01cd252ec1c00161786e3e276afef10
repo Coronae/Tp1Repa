@@ -41,8 +41,10 @@ public class Account {
 	public void crediter(Transac transaction) {
 		this.balance += transaction.getAmount();
 	}
+	
+	public void debiter(Transac transaction, int iBAN){
+		Account customerAcc = getAccount(iBAN);
+		customerAcc.setBalance(customerAcc.getBalance()-transaction.getAmount());
+	
 
-	public void debiter(Transac transaction) {
-		this.balance -= transaction.getAmount();
-	}
 }

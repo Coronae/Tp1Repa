@@ -1,3 +1,4 @@
+
 package app;
 
 import java.util.ArrayList;
@@ -11,8 +12,8 @@ import javax.ws.rs.Produces;
 import data.Account;
 import data.Transac;
 
-@Path("bankXML")
-public class RestXML {
+@Path("/bankJson")
+public class RestJson {
 
 	boolean started = false;
 	static int nbAccount = 10;
@@ -41,35 +42,41 @@ public class RestXML {
 	}
 
 	@GET
-	@Produces("text/plain")
+	@Produces("application/json")
 	@Path("/start")
 	public String startApp() {
-		start();
+		this.start();
 		return "Start ok";
 	}
-	
+
 	@GET
-	@Produces("application/xml")
-	@Path("/getAccount/{iBAN}")
+	@Produces("application/json")
+	@Path("/account/{iBAN}")
 	public Account getAccountWS(@PathParam("iBAN") int iBAN) {
 		return getAccount(iBAN);
 
 	}
 
 	@GET
-	@Produces("application/xml")
-	@Path("/doTransac/{iBAN}/{type}/{amount}")
-	public Transac doTransac(@PathParam("iBAN") int iBAN, @PathParam("type") String type,
-			@PathParam("amount") double amount) {
-
-		Transac currentTransac = new Transac(++nbTransac, type, amount, iBAN);
-		Account currentAcc = getAccount(iBAN);
-		if (currentTransac.getType().equals("Credit"))
-			currentAcc.crediter(currentTransac);
-		else if (currentTransac.getType().equals("Debit"))
-			currentAcc.debiter(currentTransac);
-		else
-			;
-		return currentTransac;
+	@Produces("application/json")
+	@Path("/getListAccount")
+	public List<Account> getLA() {
+		return listAccount;
 	}
+
+	@GET
+	@Produces("application/json")
+	@Path("/getListTransac")
+	public List<Transac> getLT() {
+		return listTransac;
+	}
+
+	/*
+	 * @GET
+	 *
+	 * @Produces("application/xml")
+	 *
+	 * @Path("/Transacxml") public Transac xmlTransac() { Transac t = new
+	 * Transac(); return t; }
+	 */
 }
