@@ -20,12 +20,14 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="GlassCons"/>
 			<item value="GlassProducer"/>
 			<item value="common"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="GlassCons"/>
 			<item value="GlassProducer"/>
 			<item value="common"/>
 		</list>

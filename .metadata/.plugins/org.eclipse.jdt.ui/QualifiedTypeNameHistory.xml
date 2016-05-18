@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="app.RestJson"/>
 </qualifiedTypeNameHistroy>

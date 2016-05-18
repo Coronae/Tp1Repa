@@ -1,0 +1,20 @@
+READ ME
+
+Auteur : Arnold Lhommedieu
+Date : 18/05/2016 16.33
+Contenu : GlassProd Eclipse Project, GlassCon Eclipse project
+
+
+Url du producer : localhost:post/GlassProd/
+
+Json :
+_ Lancer la création des données en dur : localhost:post/GlassProd/bankJson/start
+_ Récupérer les Accounts : localhost:post/GlassProd/bankJson/getListAccount
+_ Récupérer les Transactions : localhost:post/GlassProd/bankJson/getListTransac
+_ Récupérer un Account : localhost:post/GlassProd/bankJson/getAccount/{ID du Compte}
+
+
+XML : 
+_ Lancer la création des données en dur : localhost:post/GlassProd/bankXML/start
+_ Effectuer une transaction : localhost:post/GlassProd/bankXML/doTransac/{ID du Compte}/{"Credit"||"Debit"}/{amount}
+_ Récupérer un Account : localhost:post/GlassProd/bankXML/getAccount/{ID du compte}
