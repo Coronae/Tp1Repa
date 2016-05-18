@@ -12,6 +12,7 @@ public class Start extends Application {
 		// A quoi cela sert ? Qu'est ce que c'est ?
 		Set<Class<?>> s = new HashSet<Class<?>>();
 		s.add(RestJson.class);
+		s.add(RestXML.class);
 		return s;
 	}
 }

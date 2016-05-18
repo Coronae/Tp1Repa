@@ -5,13 +5,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Account {
 
-	private String IBAN;
+	private int IBAN;
 	private double balance;
 
 	public Account(){	
 	}
 	
-	public Account(String iBAN, double balance) {
+	public Account(int iBAN, double balance) {
 		super();
 		this.IBAN = iBAN;
 		this.balance = balance;
@@ -25,11 +25,11 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public String getIBAN() {
+	public int getIBAN() {
 		return IBAN;
 	}
 
-	public void setIBAN(String iBAN) {
+	public void setIBAN(int iBAN) {
 		IBAN = iBAN;
 	}
 

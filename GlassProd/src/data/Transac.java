@@ -13,10 +13,17 @@ public class Transac {
 	public Transac(){	
 	}
 	
+	public Transac(int Id, String type, double amount, int customerID){
+		this.Id=Id;
+		this.customerId=customerID;
+		this.amount = amount;
+		this.type = type;
+	}
+	
 	public Transac(int Id){
 		
 		this.Id=Id;
-		this.customerId=(int)Math.random()*10;
+		this.customerId=(int)(Math.random()*10);
 		this.type=(Math.random()<=0.5)?"Debit":"Credit";
 		this.amount=Math.random()*250;
 	}

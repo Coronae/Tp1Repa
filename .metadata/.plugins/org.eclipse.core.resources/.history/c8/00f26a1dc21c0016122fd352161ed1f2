@@ -1,0 +1,43 @@
+package app;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.xml.bind.Unmarshaller;
+import javax.xml.transform.stream.StreamSource;
+
+import org.eclipse.persistence.jaxb.JAXBContext;
+import org.eclipse.persistence.jaxb.JAXBContextFactory;
+import org.eclipse.persistence.jaxb.MarshallerProperties;
+
+public abstract class RestJson {
+	
+	private static String uri1 = "http://localhost:9090/GlassProd/bank/start";
+	private static String uri2 = "http://locahost:9090/GlassProd/bank/getListAccount";
+	private static String uri3 = "http://locahost:9090/GlassProd/bank/getListTransac";
+	
+	
+	
+	
+	public static void start() throws Exception{
+
+		URL url = new URL(uri1);
+		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+		connection.setRequestMethod("GET");
+		connection.setRequestProperty("Accept", "application/json");
+		Map<String, Object> properties = new HashMap<String, Object>();
+
+		properties.put("eclipselink.media-type", "application/json");
+		properties.put(MarshallerProperties.JSON_INCLUDE_ROOT, false);
+
+		JAXBContext ctx = (JAXBContext) JAXBContextFactory.createContext(new Class[] { String.class }, properties);
+		Unmarshaller jsonUnmarshaller = ctx.createUnmarshaller();
+		StreamSource jsonStream2 = new StreamSource(connection.getInputStream());
+
+		String startOk = (String) jsonUnmarshaller.unmarshal(jsonStream2, String.class).getValue();
+		connection.disconnect();
+			System.out.println(startOk);
+	}
+}

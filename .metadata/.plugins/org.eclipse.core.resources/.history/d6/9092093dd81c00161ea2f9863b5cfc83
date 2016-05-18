@@ -1,0 +1,50 @@
+package app;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import data.Account;
+import data.Transac;
+
+@Path("bankXML")
+public class RestXML {
+
+	boolean started = false;
+	int nbAccount = 10;
+	int nbTransac = 100;
+	public static List<Account> listAccount;
+	public static List<Transac> listTransac;
+
+	private void start() {
+		if (!started) {
+			listAccount = new ArrayList<Account>();
+			listTransac = new ArrayList<Transac>();
+
+			for (int i = 0; i < nbAccount; i++)
+				listAccount.add(new Account("test" + i, Math.random() * 5000));
+			for (int j = 0; j < nbTransac; j++)
+				listTransac.add(new Transac(j));
+			started = true;
+		}
+	}
+	
+	private Account getAccount(String iBAN) {
+		for (Account element : listAccount)
+			if (element.getIBAN().equals(iBAN))
+				return element;
+		return null;
+	}
+	
+	
+	@GET
+	@Produces("application/xml")
+	@Path("/doTransac/{iBAN}/{type}/{amount}")
+	public String doCredit(@PathParam("iBAN") String iBAN, @PathParam("type") String type, @PathParam("amount") double amount){
+		)
+	}
+}
