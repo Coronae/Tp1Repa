@@ -75,7 +75,8 @@ public class Transac {
 
 	@Override
 	public String toString() {
-		return "Transac [Id=" + Id + ", type=" + type + ", amount=" + amount + ", customerId=" + customerId + "]";
+		return "Transac [Id=" + Id + ", type=" + type + ", amount=" + amount + ", customerId=" + customerId + ", date="
+				+ date + "]";
 	}
 
 }

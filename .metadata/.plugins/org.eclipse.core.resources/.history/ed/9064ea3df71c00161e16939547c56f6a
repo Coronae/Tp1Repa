@@ -18,9 +18,9 @@ import data.Transac;
 
 public abstract class RestJson {
 
-	private static String uri1 = "http://localhost:9090/GlassProd/bankJson/start";
-	private static String uri2 = "http://localhost:9090/GlassProd/bankJson/getListAccount";
-	private static String uri3 = "http://localhost:9090/GlassProd/bankJson/getListTransac";
+	private static String uri1 = "http://localhost:9090/GlassProd/bank/start";
+	private static String uri2 = "http://localhost:9090/GlassProd/bank/getListAccount";
+	private static String uri3 = "http://localhost:9090/GlassProd/bank/getListTransac";
 
 	public static void start() throws Exception {
 		URL url = new URL(uri1);
