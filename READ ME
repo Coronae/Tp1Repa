@@ -18,3 +18,5 @@ XML :
 _ Lancer la création des données en dur : localhost:post/GlassProd/bankXML/start
 _ Effectuer une transaction : localhost:post/GlassProd/bankXML/doTransac/{ID du Compte}/{"Credit"||"Debit"}/{amount}
 _ Récupérer un Account : localhost:post/GlassProd/bankXML/getAccount/{ID du compte}
+
+Test jUnit sur la récupération des données du WS GlassFish.

@@ -45,11 +45,6 @@ public class TransactionTests {
 	public void typeIsSet() {
 		Assert.assertTrue(transaction.getType().length() != 0);
 	}
-	
-	@Test
-	public void typeIsOk() {
-		Assert.assertTrue((transaction.getType().equals("Debit"))||(transaction.getType().equals("Credit")));
-	}
 
 	@Test
 	public void amountNotNull() {
